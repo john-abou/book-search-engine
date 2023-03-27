@@ -11,7 +11,9 @@ const resolvers = {
           .populate('savedBooks');
 
         return userData;
-      }
+      },
+
+
     },
     Mutation: {
       // CREATE a user - replace createUser controller with this
@@ -74,5 +76,4 @@ const resolvers = {
         }
       }
     }
-  }
-};
+  };
